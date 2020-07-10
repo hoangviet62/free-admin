@@ -2,6 +2,7 @@ import React from "react";
 import { Layout, Button } from "antd";
 import { MenuFoldOutlined } from "@ant-design/icons";
 import Sider from "./../Sider";
+import less from "less";
 import "../../public/less/Default.less";
 
 const { Header, Footer, Content } = Layout;
