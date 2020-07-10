@@ -1,0 +1,64 @@
+@font-size: 100%;
+@font-family: Roboto;
+@color-white: #fff;
+@primary-color: #5949d6;
+
+body {
+  font-size: @font-size;
+  font-family: @font-family;
+}
+
+.ant-layout-sider {
+  background: @color-white;
+  border-right: 1px solid rgba(72, 94, 144, 0.16);
+}
+
+.ant-menu-item-selected {
+  color: @primary-color;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: fade(@primary-color, 10%);
+}
+
+.ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after {
+  border-right: 3px solid @primary-color;
+}
+
+.ant-menu-item:hover, .ant-menu-item-active, .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open, .ant-menu-submenu-active, .ant-menu-submenu-title:hover {
+  color: @primary-color;
+}
+
+.ant-menu-submenu-vertical > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after, .ant-menu-submenu-vertical-left > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after, .ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after, .ant-menu-submenu-inline > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after, .ant-menu-submenu-vertical > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before, .ant-menu-submenu-vertical-left > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before, .ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before, .ant-menu-submenu-inline > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before {
+  background: linear-gradient(to right, @primary-color, @primary-color)
+}
+
+.ant-menu-submenu-selected {
+  color: @primary-color;
+}
+
+.ant-menu-vertical .ant-menu-submenu-selected, .ant-menu-vertical-left .ant-menu-submenu-selected, .ant-menu-vertical-right .ant-menu-submenu-selected {
+  color: @primary-color;
+}
+
+.ant-btn:hover, .ant-btn:focus {
+  color: @primary-color;
+  border-color: @primary-color;
+}
+
+.app-logo {
+  height: 32px;
+  background: grey;
+  margin: 16px;
+}
+
+.app-header {
+  padding: 0px 25px;
+  background: @color-white;
+}
+
+.app-content {
+  margin: 24px 16px;
+  padding: 24;
+  height: 100%;
+}

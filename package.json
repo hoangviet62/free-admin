@@ -1,7 +1,7 @@
 {
   "name": "free-admin",
   "version": "1.0.0",
-  "license": "Anonymous",
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -20,11 +20,14 @@
   "dependencies": {
     "@types/dotenv": "^8.2.0",
     "@types/react-redux": "^7.1.9",
+    "@zeit/next-less": "^1.0.1",
     "antd": "^4.3.1",
     "connected-next-router": "^3.0.1",
     "cross-env": "^5.2.0",
     "dotenv": "^8.2.0",
+    "less": "^3.11.3",
     "next": "latest",
+    "path": "^0.12.7",
     "prettier": "^2.0.5",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
