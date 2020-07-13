@@ -1147,6 +1147,11 @@
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
 
+"@types/less@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@types/less/-/less-3.0.1.tgz#625694093c72f8356c4042754e222407e50d6b08"
+  integrity sha512-dBp05MtWN/w1fGVjj5LVrDw6VrdYllpWczbUkCsrzBj08IHsSyRLOFvUrCFqZFVR+nsqkrRLNg6oOlvqMLPaSA==
+
 "@types/node@^12.12.43":
   version "12.12.48"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.48.tgz#4135f064eeed9fcfb4756deea5ba2caa11603391"
